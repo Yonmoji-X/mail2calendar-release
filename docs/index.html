@@ -1,23 +1,65 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mail → Google Calendar</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Mail → Google Calendar</h1>
+  <main class="container">
+    <header class="header">
+      <h1>Mail → Google Calendar</h1>
+      <p class="subtitle">
+        メールから予定情報を抽出し、Googleカレンダーに登録する
+        デスクトップアプリ
+      </p>
+    </header>
 
-  <p>
-    メールから予定情報を取得し、
-    Googleカレンダーに自動登録するデスクトップアプリです。
-  </p>
+    <section class="card">
+      <h2>主な機能</h2>
+      <ul>
+        <li>📧 メール本文から日時・タイトルを自動解析</li>
+        <li>📅 Googleカレンダーへワンクリック登録</li>
+        <li>🔐 Google公式OAuth認証を使用</li>
+        <li>🖥 Windowsデスクトップアプリ</li>
+      </ul>
+    </section>
 
-  <a href="https://github.com/USER/mail2calendar-release/releases/latest">
-    ▶ ダウンロード（Windows）
-  </a>
+    <section class="card download">
+      <h2>ダウンロード</h2>
+      <a
+        class="download-button"
+        href="https://github.com/USER/mail2calendar-release/releases/latest"
+      >
+        Windows版をダウンロード
+      </a>
+      <p class="note">
+        ※ 初回起動時に Google アカウントの認証画面が表示されます
+      </p>
+    </section>
 
-  <p style="margin-top:20px;">
-    ※ 初回起動時に Google アカウント認証が表示されます
-  </p>
+    <section class="card">
+      <h2>注意事項</h2>
+      <ul class="notes">
+        <li>本アプリは個人開発のツールです</li>
+        <li>Googleアカウント情報は保存されません</li>
+        <li>自己責任でご利用ください</li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p>
+        © 2026 Yonmoji-X |
+        <a
+          href="https://github.com/USER/mail2calendar-release"
+          target="_blank"
+          rel="noopener"
+        >
+          GitHub
+        </a>
+      </p>
+    </footer>
+  </main>
 </body>
 </html>
